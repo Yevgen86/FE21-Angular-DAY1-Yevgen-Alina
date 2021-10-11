@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* All Images provided by  https://www.motocms.com/website-templates/demo/65094.html */
+
+// Font for the Brand Name
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+// font-family: 'Pacifico', cursive;
+
+body {
+    background: url("../src/assets/images/content-bg.jpg") no-repeat right center;
+    background-size: cover;
+    background-attachment: fixed;
+}

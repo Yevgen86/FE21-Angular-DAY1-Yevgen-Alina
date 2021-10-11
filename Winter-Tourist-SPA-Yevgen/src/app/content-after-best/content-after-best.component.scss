@@ -1,0 +1,62 @@
+.after-best-container {
+    text-align: center;
+    padding: 4em 0;
+
+    h2 {
+        color: #033959;
+        font-size: 3em;
+        font-weight: 700;
+        padding-bottom: .5em;
+    }
+
+    .devider-widget {
+        border-top-width: 4px;
+        border-top-style: solid;
+        border-top-color: #db383c;
+        opacity: 1;
+        max-width: 100%;
+        width: 85px;
+        display: inline-block;
+        margin-bottom: 4em;
+    }
+
+    .figure {
+        position: relative;
+
+        .figure-caption {
+            position: absolute;
+            top: 45%;
+            left: 0;
+            width: 100%;
+            color: #fff;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .trip-price {
+            display: inline-block;
+            background-color: #DB383C;
+            color: #fff;
+            font-weight: bold;
+            padding: .5em 3em;
+            position: absolute;
+            top: 15%;
+            left: 0;
+        }
+    }
+
+    .btn-container {
+        padding-top: 3em;
+
+        .custom-btn-red {
+            background-color: #DB383C;
+            color: #fff;
+            font-weight: bold;
+            padding: .5em 2em;
+    
+            &:hover {
+                background-color: #033959;
+            }
+        }
+    }
+}

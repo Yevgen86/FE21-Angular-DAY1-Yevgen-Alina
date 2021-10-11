@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeroComponent } from './hero/hero.component';
+import { ContentBestComponent } from './content-best/content-best.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ContentAfterBestComponent } from './content-after-best/content-after-best.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutPageComponent,
     NavigationComponent,
-    HeroComponent
+    HeroComponent,
+    ContentBestComponent,
+    HomePageComponent,
+    ContentAfterBestComponent,
+    FooterComponentComponent
   ],
   imports: [
     BrowserModule,

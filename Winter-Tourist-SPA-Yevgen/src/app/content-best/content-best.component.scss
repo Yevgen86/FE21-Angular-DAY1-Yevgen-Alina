@@ -1,0 +1,53 @@
+.best-container {
+    background: url("../../assets/images/content-best-bg.jpg") no-repeat left top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 4em 0;
+
+    h2 {
+        font-size: 3em;
+        font-weight: 700;
+        padding-bottom: .5em;
+    }
+
+    .devider-widget {
+        border-top-width: 4px;
+        border-top-style: solid;
+        border-top-color: #db383c;
+        opacity: 1;
+        max-width: 100%;
+        width: 85px;
+        display: inline-block;
+    }
+
+    .card {
+        background-color: inherit;
+        padding-top: 2em;
+        
+        .card-icon-top {
+            border: 1px solid #2D7494;
+            width: 92px;
+            height: 92px;
+            margin: auto;
+        
+            i {
+                font-size: 2.5em;
+                vertical-align: -1em;
+            }
+        }
+        .card-title {
+            font-weight: 700
+        }
+        
+        .card-title-seperator {
+            background-color: #db383c;
+            padding: .05em;
+            width: 20%;
+            margin: auto;
+            margin-bottom: .5em;
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+footer {
+    background-color: #DB383C;
+    color: #fff;
+    padding: 3em 0;
+
+    .navbar-brand {
+        font-size: 2em;
+        font-family: 'Pacifico', cursive;
+
+        .bi-alt {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    }
+
+    .copy-right {
+        padding-top: 8%;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
